@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo_will.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_responsivo.css">
+    <link rel="stylesheet" href="css/dinamico.css">
+    <title>Alura Geek</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="img/img_coracao.svg" class="img__titulo">
+        <h1 class="texto__titulo">AluraGeek</h1>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo__produtos">
+            <h2 class="conteudo__produtos__titulo">MEUS PRODUTOS</h2>
+            <h2 class="alerta">Nenhum produto foi adicionado</h2>
+            <ul class="prateleira__produtos" data-produtos>
+
+            </ul>
+        </section>
+
+        <section class="conteudo__adicionar">
+            <h2 class="conteudo__adicionar__titulo">ADICIONAR PRODUTO</h2>
+            <form action="" class="conteudo__adicionar__dados" data-formulario>
+                <input type="text" id="nome" placeholder="Nome..." class="conteudo__adicionar__dados__entrada" data-nome
+                    required>
+                <input type="number" step="0.01" min="0.01" id="valor" placeholder="Valor..."
+                    class="conteudo__adicionar__dados__entrada" data-valor required>
+                <input type="text" id="imagem" placeholder="Imagem..." class="conteudo__adicionar__dados__entrada"
+                    data-imagem required>
+
+                <div class="botoes">
+                    <button class="botao btn__guardar" type="submit">Guardar</button>
+                    <button class="botao btn__limpar" type="reset">Limpar</button>
+                </div>
+            </form>
+
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__titulo">
+            <img src="img/img_coracao.svg" class="img__titulo">
+            <h1 class="texto__titulo">AluraGeek</h1>
+        </div>
+        <p class="autoria">DESENVOLVIDO POR WILLIAN<br><span>ALURA LATAM - 2024</span></p>
+    </footer>
+    <script src="js/main.js" type="module"></script>
+    <script src="js/mostrarProdutos.js" type="module"></script>
+    <script src="js/adicionarProduto.js" type="module"></script>
+    <script src="js/removerProduto.js" type="module"></script>
+</body>
+
+</html>

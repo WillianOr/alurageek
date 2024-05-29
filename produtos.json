@@ -1,0 +1,22 @@
+{
+  "produtos": [
+    {
+      "id": "ef07",
+      "nome": "Tanjiro",
+      "valor": "89.15",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/172831/bonecos_action_figure_demon_slayer_tanjiro_nezuko_giyu_zenitsu_inosuke_e_shinobu_11165_1_407520c18de66352ce44e47d364236c2.jpg"
+    },
+    {
+      "id": "89bb",
+      "nome": "Luffy",
+      "valor": "110",
+      "imagem": "https://nalojinha.com.br/cdn/shop/files/Sb10dbfcf2dcc4ffbbe7f95f601f11ca7r.webp?v=1697249570"
+    },
+    {
+      "id": "71d5",
+      "nome": "Tower of the God",
+      "valor": "35",
+      "imagem": "https://m.media-amazon.com/images/I/51KebheU+fL._SY466_.jpg"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+
+    .conteudo {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .conteudo__adicionar {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .conteudo__produtos {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .botao {
+        max-width: 164px;
+    }
+
+    .prateleira__produtos {
+        justify-content: center;
+    }
+}

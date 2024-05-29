@@ -1,0 +1,10 @@
+.botao:hover {
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.produto__excluir:hover {
+    height: 28px;
+    cursor: pointer;
+}
